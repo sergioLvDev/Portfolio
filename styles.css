@@ -4,16 +4,60 @@
   box-sizing: border-box;
 }
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #6efdd4;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+header {
+  background: #6e73fd;
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.titulo {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: black 1px solid;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 10px;
+  display: block;
+
+}
+
+a:hover {
+  background: #7A42A5;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+nav {
+  padding: 20px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+/* INICIO */
+
+main {
+  display: grid;
+  place-items: center;
+  width: calc(100% - 300px);
+  height: 100vh;
+  margin-left: 300px;
+  padding: 20px;
 }
