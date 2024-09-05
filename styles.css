@@ -12,10 +12,13 @@ body {
 header {
   background: #1bcfc9;
   width: 300px;
-  height: 100vh;
+  height: 97vh;
   position: fixed;
   top: 0;
-  left: 0;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(66, 56, 56);
+  z-index: 1;
 }
 
 
@@ -30,7 +33,7 @@ header {
   width: 250px;
   height: 250px;
   border-radius: 100%;
-  box-shadow: 0 0 15px black;
+  box-shadow: 0 0 15px rgb(66, 56, 56);
 }
 
 nav a {
@@ -64,12 +67,12 @@ ul {
 
 /* INICIO */
 
-main {
+.hero {
   display: grid;
   place-items: center;
-  width: calc(100% - 300px);
-  height: 100vh;
-  margin-left: 300px;
+  width: calc(100% - 330px);
+  height: 90vh;
+  margin-left: 320px;
   padding: 20px;
 }
 
@@ -91,4 +94,15 @@ p {
 
 .social:hover {
   transform: scale(1.1);
+}
+
+
+/* FORMACION */
+.formacion {
+  display: grid;
+  place-items: center;
+  width: calc(100% - 320px);
+  height: 90vh;
+  margin-left: 320px;
+  padding: 20px;
 }
