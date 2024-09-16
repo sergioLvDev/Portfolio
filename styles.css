@@ -90,6 +90,22 @@ ul {
   }
 }
 
+@media (max-width: 552px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+
+  nav {
+    border-left: none;
+    border-top: 2px solid black;
+  }
+}
+
 /* INICIO */
 
 .hero {
@@ -103,6 +119,10 @@ ul {
 }
 
 @media (max-width: 991px) {
+  .hero {
+    min-height: auto;
+  }
+
   .hero2 {
     height: 600px;
     overflow: hidden;
@@ -156,7 +176,7 @@ p {
 
 @media screen and (max-width: 992px) {
   .formacion {
-    width: 500px;
+    max-width: 500px;
     margin: auto;
   }
 }
@@ -180,4 +200,10 @@ p {
   display: grid;
   place-items: center;
   margin-top: 50px;
+}
+
+footer p {
+  margin: 0 10px;
+  font-size: medium;
+  border-radius: 5px;
 }
