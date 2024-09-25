@@ -124,7 +124,7 @@ ul {
   }
 
   .hero2 {
-    padding: 24px;
+    padding-bottom: 24px !important;
   }
 
   .imgCompu {
