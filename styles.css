@@ -124,8 +124,7 @@ ul {
   }
 
   .hero2 {
-    height: 600px;
-    overflow: hidden;
+    padding: 24px;
   }
 
   .imgCompu {
@@ -196,14 +195,21 @@ p {
 
 }
 
+
+
 .contacto {
   display: grid;
   place-items: center;
-  margin-top: 50px;
+  align-items: start;
+  height: 100vh;
 }
 
-footer p {
-  margin: 0 10px;
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
   font-size: medium;
   border-radius: 5px;
+  place-self: end;
 }
