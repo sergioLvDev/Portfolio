@@ -180,6 +180,19 @@ p {
   }
 }
 
+.descForm {
+  font-size: 20px;
+  border-top: 1px solid black;
+  padding: 10px;
+}
+
+.card-body {
+  background-color: #e5f9f3;
+  height: 100%;
+}
+
+
+/* PROYECTOS */
 .proyectos {
   display: grid;
   place-items: center;
