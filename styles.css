@@ -114,6 +114,10 @@ ul {
   min-height: 100dvh;
 }
 
+.hero2 {
+  box-shadow: 10px 10px 35px #52e6ba inset, -10px -10px 35px #52e6ba inset;
+}
+
 .imgCompu {
   width: 620px;
 }
