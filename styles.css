@@ -260,3 +260,10 @@ p {
   border-radius: 5px;
   place-self: end;
 }
+
+/* WHATSAPP */
+.logwap {
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+}
