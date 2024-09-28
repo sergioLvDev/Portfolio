@@ -10,6 +10,9 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: #1bcfc9;
   width: 300px;
   position: fixed;
@@ -54,16 +57,29 @@ nav a:hover {
   color: white;
 }
 
-nav {
-  margin-top: 20px;
-  border-top: 2px solid black;
-  padding: 20px;
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
 
+nav {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  height: 100%;
 }
 
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
 }
 
 @media (max-width: 992px) {
@@ -80,14 +96,23 @@ ul {
 
   nav {
     border-top: none;
-    border-left: 2px solid black;
-    margin: 20px;
+    border-bottom: 1px solid black;
+  }
+
+  .menu {
+    border-left: 1px solid black;
+  }
+
+  .redes a {
+
+    margin: 5px;
   }
 
   main {
     margin-left: 0;
     padding: 20px;
   }
+
 }
 
 @media (max-width: 552px) {
@@ -100,9 +125,14 @@ ul {
     height: auto;
   }
 
+  .menu {
+    border-left: none;
+  }
+
   nav {
     border-left: none;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
   }
 }
 
