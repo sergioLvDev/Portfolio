@@ -249,6 +249,22 @@ p {
 
 }
 
+
+.card-title {
+  text-align: left;
+  font-size: x-large;
+}
+
+.card-text {
+  text-align: center;
+  font-size: large;
+}
+
+.card-body>p>img {
+  width: 30px;
+  height: 30px;
+}
+
 /* CONTACTO */
 
 
