@@ -276,6 +276,7 @@ p {
 .contacto {
   display: grid;
   place-items: center;
+  margin-bottom: none;
 }
 
 .form {
@@ -306,15 +307,15 @@ p {
 /* FOOTER */
 
 .footer {
+  background-color: rgb(128, 227, 146);
   width: 100%;
   font-size: medium;
   border-radius: 5px;
-  place-self: end;
 }
 
 /* WHATSAPP */
 .logwap {
   position: fixed;
-  bottom: 15px;
+  bottom: 30px;
   right: 10px;
 }
