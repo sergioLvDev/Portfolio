@@ -140,33 +140,29 @@
     </div>
     <div class="contacto">
       <h2 class="py-5 tituloContacto" id="contacto">Contacto</h2>
-      <form class="form  p-3 rounded mb-3" action="https://formsubmit.co/sergio.lavilletta@gmail.com" method="POST">
-        <label for="Nombre" class="form-label">Nombre</label>
-        <input type="text" class="form-control mb-3" name="name" id="exampleFormControlInput1" placeholder="Juan"
-          required>
+      <form class="form  p-3 rounded mb-3" action="1.php" method="post">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control mb-3" name="name" id="nombre" placeholder="Juan" required autofocus
+          autocomplete="off">
 
         <label for="email" class="form-label">Correo Electrónico</label>
-        <input type="email" class="form-control mb-3" name="email" id="exampleFormControlInput1"
-          placeholder="juan@example.com" required>
+        <input type="email" class="form-control mb-3" name="email" id="email" placeholder="juan@example.com" required>
 
 
-        <label for="Asunto" class="form-label">Asunto</label>
-        <input type="text" class="form-control mb-3" name="subject" id="exampleFormControlInput1" placeholder="Asunto"
-          required>
+        <label for="asunto" class="form-label">Asunto</label>
+        <input type="text" class="form-control mb-3" name="subject" id="asunto" placeholder="Asunto" required>
 
-        <label for="Comentario" class="form-label">Comentario</label>
-        <textarea class="form-control" name="comments" id="exampleFormControlTextarea1" cols="70" rows="8" required
+        <label for="comentario" class="form-label">Comentario</label>
+        <textarea class="form-control" name="comments" id="comentario" cols="70" rows="8" required
           placeholder="Deje su comentario"></textarea>
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://portfolio-sergiolvdev.netlify.app/">
-
 
         <div class="d-flex justify-content-center">
 
           <button type="submit" value="Enviar" class="btnSubmit">Enviar</button>
         </div>
       </form>
-      <p class="text-center footer">Copyright © 2024 / sergio.lavilletta@gmail.com</p>
+      <p class="text-center footer">Copyright © 2024 / <a
+          href="mailto:sergio.lavilletta@gmail.com">sergio.lavilletta@gmail.com</a></p>
     </div>
     </div>
     <div><a href="https://api.whatsapp.com/send?phone5493416139836&text=Hola!" target="_blank"><img class="logwap"
