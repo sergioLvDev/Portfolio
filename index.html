@@ -127,7 +127,7 @@
         <div class="card-body">
           <h5 class="card-title">E-COMMERCE - Tienda de Ropa</h5>
           <hr>
-          <p class="card-text">E-commerce realizado a como proyecto final de curso para la venta de ropa y zapatillas.
+          <p class="card-text">E-commerce realizado como proyecto final de curso para la venta de ropa y zapatillas.
           </p>
           <p class="card-text">
             <img src="./img/i-html.png" alt="icono de html"> <img src="./img/i-js.png" alt="icono de js"> <img
@@ -140,16 +140,27 @@
     </div>
     <div class="contacto">
       <h2 class="py-5 tituloContacto" id="contacto">Contacto</h2>
-      <form class="row g-3  border border-dark p-3 rounded">
-        <div class="mb-3" id="contacto">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="kLjyA@example.com">
+      <form class="form  p-3 rounded mb-3" action="#">
+        <label for="Nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control mb-3" name="name" id="exampleFormControlInput1" placeholder="Juan"
+          required>
+
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control mb-3" name="email" id="exampleFormControlInput1"
+          placeholder="juan@example.com" required>
+
+
+        <label for="Asunto" class="form-label">Asunto</label>
+        <input type="text" class="form-control mb-3" name="subject" id="exampleFormControlInput1" placeholder="Asunto"
+          required>
+
+        <label for="Comentario" class="form-label">Comentario</label>
+        <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" cols="70" rows="8" required
+          placeholder="Deje su comentario"></textarea>
+        <div class="d-flex justify-content-center">
+
+          <button type="submit" value="Enviar" class="btnSubmit">Enviar</button>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-          <textarea class="form-control " id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
       <p class="text-center text-muted bg-info footer">Copyright © 2024 / sergio.lavilletta@gmail.com</p>
     </div>
