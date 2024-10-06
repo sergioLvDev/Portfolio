@@ -1,22 +1,22 @@
 <?php
-
 $nombre = $_POST['name'];
 $email = $_POST['email'];
-$subject = $_POST['subject'];
-$comments = $_POST['comments'];
+$asunto = $_POST['subject'];
+$comentario = $_POST['comments'];
 
-$formcontent="
-    Nombre: $name \n
-    E-mail: $email \n
-    Asunto: $subject \n
-    Comentarios: $comments
-";
 
-$recipient = "sergio.lavilletta@gmailcom, sergio_pk@hotmail.com";
+$comentario = "Este mensanje fue enviado por: " . $nombre . ",\r\n";
+$comentario .= "Su correo es: " . $email . ",\r\n";
+$comentario .= "El asunto es: " . $asunto . ",\r\n";
+$comentario .= "Comentarios: " . $comentarios . "\r\n";
+$comentario .= "Enviado el: " . date('d/m/Y', time());
 
-$header = "From: $email \r\n";
-$header .= "Content-Type: text/plain; charset=UTF-8";
-mail($recipient, $formcontent, $header) or die("Error!");
-header("Location: index.html");
+
+$para = "sergio.lavilletta@gmail , sergio_pk@hotmail.com";
+$asunto = "Contacto desde mi sitio web";
+
+mail($para, $asunto, $comentario, $headers);
+
+header("Location: exito.html");
 
 ?>
