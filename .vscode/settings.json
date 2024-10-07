@@ -1,3 +1,5 @@
 {
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "php.validate.enable": true,
+  "php.validate.executablePath": "C:\\xampp"
 }
