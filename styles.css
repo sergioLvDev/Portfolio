@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Merienda:wght@300..900&display=swap');
 
 * {
   margin: 0;
@@ -14,7 +13,7 @@ body {
 }
 
 .titulos {
-  font-family: 'Merienda', cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 header {
@@ -29,8 +28,9 @@ header {
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgb(66, 56, 56);
-
 }
+
+
 
 main {
   margin-left: 320px;
@@ -44,12 +44,7 @@ main {
   margin: 20px;
 }
 
-.foto img {
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
-  box-shadow: 0 0 15px rgb(66, 56, 56);
-}
+
 
 nav a {
   display: flex;
@@ -63,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-  background: rgb(26, 136, 46);
+  background: green;
   border-radius: 5px;
   color: white;
 }
@@ -93,67 +88,6 @@ ul {
   margin: 10px;
 }
 
-@media (max-width: 992px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: auto;
-    position: relative;
-    justify-content: space-between;
-    margin: 20px;
-
-  }
-
-  nav {
-    border-top: none;
-    border-bottom: 1px solid black;
-  }
-
-  .menu {
-    border-left: 1px solid black;
-  }
-
-  .redes a {
-
-    margin: 5px;
-  }
-
-  main {
-    margin-left: 0;
-    padding: 20px;
-  }
-
-
-  @media screen and (max-width: 560px) {
-    main {
-      padding-bottom: 10px;
-    }
-  }
-
-
-}
-
-@media (max-width: 552px) {
-
-  header {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: auto;
-    height: auto;
-  }
-
-  .menu {
-    border-left: none;
-  }
-
-  nav {
-    border-left: none;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-  }
-}
 
 /* INICIO */
 
@@ -350,4 +284,133 @@ p {
   position: fixed;
   bottom: 30px;
   right: 10px;
+}
+
+
+
+
+
+/* FLIP CARD */
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.card-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgb(66, 56, 56);
+  object-fit: cover;
+}
+
+
+
+@media (max-width: 992px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+
+  }
+
+  nav {
+    border-top: none;
+    border-bottom: 1px solid black;
+  }
+
+  .menu {
+    border-left: 1px solid black;
+  }
+
+  .redes a {
+
+    margin: 5px;
+  }
+
+  main {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .flip-card {
+    height: 300px;
+    width: 300px;
+  }
+
+}
+
+
+@media screen and (max-width: 560px) {
+  main {
+    padding-bottom: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 552px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: stretch;
+    width: auto;
+    height: auto;
+  }
+
+  .menu {
+    border-left: none;
+  }
+
+  nav {
+    border-left: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .flip-card {
+    width: 100%;
+  }
 }
