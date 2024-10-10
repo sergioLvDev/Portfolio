@@ -14,8 +14,27 @@ body {
 
 .titulos {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 20px 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 2.5rem;
 }
+
+.titulos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.titulos::after,
+.titulos::before {
+  content: "";
+  height: 2px;
+  background-color: black;
+  display: block;
+}
+
+
+
 
 header {
   display: flex;
@@ -98,6 +117,8 @@ nav {
   min-height: 100dvh;
 }
 
+
+
 .hero2 {
   box-shadow: 10px 10px 35px #52e6ba inset, -10px -10px 35px #52e6ba inset;
 }
@@ -108,7 +129,6 @@ nav {
 
 @media (max-width: 993px) {
   .hero {
-    padding-top: 1rem;
     min-height: auto;
   }
 
@@ -151,6 +171,7 @@ p {
   height: auto;
   margin: 10px 0px;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .slide-track {
@@ -251,12 +272,11 @@ p {
 
 
 .contacto {
-  display: grid;
-  place-items: center;
   margin-bottom: none;
 }
 
 .form {
+  margin: auto;
   background-image: url("img/fondo-pinos.jpg");
   box-shadow: inset 0px 0px 45px rgb(71, 90, 69), inset -0px -30px 45px rgb(71, 90, 69);
   max-width: 500px;
@@ -424,5 +444,9 @@ p {
 
   .flip-card {
     width: 100%;
+  }
+
+  h1 {
+    font-size: 1.80rem !important;
   }
 }
