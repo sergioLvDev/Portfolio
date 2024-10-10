@@ -16,7 +16,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px 0;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .titulos {
@@ -214,7 +214,7 @@ p {
 
 
 .skills {
-  background-color: rgb(128, 227, 146);
+  background-color: rgb(237, 240, 237);
   width: 100%;
   border-radius: 5px;
   border: double 5px green;
@@ -225,6 +225,10 @@ p {
   margin: 10px 30px 30px 15px;
   text-align: left;
   font-size: large;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 /* PROYECTOS */
@@ -403,6 +407,10 @@ p {
   main {
     margin-left: 0;
     padding: 20px;
+  }
+
+  .titulos {
+    font-size: 2rem;
   }
 
   .flip-card {
