@@ -1,0 +1,14 @@
+{
+  "header": {
+    "inicio": "Inicio",
+    "formacion": "Formación",
+    "proyectos": "Proyectos",
+    "contacto": "Contacto",
+    "idioma": "Idioma"
+  },
+
+  "portada": {
+    "hero": "Hola, soy Sergio !!!",
+    "descripcion": "Graduado en Analista de Sistemas de Computación y Desarrollador Frontend, diseño aplicaciones y paginas web eficientes, con enfoque en la innovación y adaptabilidad a tus requerimientos para que cautive y mejore la experiencia de usuario. Te invito a ver algunos de mis <a href='#proyectos'>proyectos</a> y a <a href='#contacto'>contactarme</a> para trabajar juntos."
+  }
+}

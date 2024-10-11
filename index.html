@@ -27,11 +27,21 @@
     <div class="menu">
       <nav>
         <ul class="navUl">
-          <li><a href="#hero"><i class="bi bi-house-door-fill"></i> Inicio</a></li>
-          <li><a href="#formacion"><i class="bi bi-award-fill"></i> Formación</a></li>
-          <li><a href="#proyectos"><i class="bi bi-hammer"></i> Proyectos</a></li>
-          <li><a href="#contacto"><i class="bi bi-person-fill"></i> Contacto</a></li>
-          <li><a href="#hero"><i class="bi bi-translate"></i> Idioma </a></li>
+          <li><i class="bi bi-house-door-fill"></i><a href="#hero" data-seccion="header" data-value="inicio">Inicio</a>
+          </li>
+          <li><i class="bi bi-award-fill"></i><a href="#formacion" data-seccion="header"
+              data-value="formacion">Formación</a></li>
+          <li><i class="bi bi-hammer"></i><a href="#proyectos" data-seccion="header" data-value="proyectos">
+              Proyectos</a></li>
+          <li><i class="bi bi-person-fill"></i><a href="#contacto" data-seccion="header"
+              data-value="contacto">Contacto</a></li>
+          <li class="idioma"><i class="bi bi-translate"></i><span class="idioma2" data-seccion="header"
+              data-value="idioma">Idioma</span><span>
+              <button class="bande  rounded-start" data-languaje="es"><img src="./img/es.png" alt="bandera de argentina"
+                  class="imgBande"></button>
+              <button class="bande rounded-end" data-languaje="en"><img src="./img/en.png"
+                  alt="bandera de estados unidos" class="imgBande"></button></span>
+          </li>
         </ul>
       </nav>
       <div class="redes">
@@ -49,12 +59,15 @@
     <div class="hero" id="hero">
       <div class="row hero2 p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border m-auto">
         <div class="col-lg-7 p-3 p-lg-4 pt-lg-3">
-          <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Hola soy Sergio !!!</h1>
-          <p class="lead">Graduado en Analista de Sistemas de Computación y Desarrollador Frontend, diseño aplicaciones
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis" data-seccion="portada" data-value="hero">Hola, soy
+            Sergio !!!</h1>
+          <p class="lead" data-seccion="portada" data-value="descripcion">Graduado en Analista de Sistemas de
+            Computación y Desarrollador Frontend, diseño aplicaciones
             y paginas web eficientes, con enfoque en la innovación y adaptabilidad a tus requerimientos para que cautive
             y
             mejore la experiencia de usuario.
-            Te invito a ver algunos de mis <a href="#proyectos">proyectos </a> y a <a href="#contacto"> contactarme</a>
+            Te invito a ver algunos de mis <a href="#proyectos" data-seccion="portada" data-value="pro">proyectos </a>
+            y a <a href="#contacto" data-seccion="portada" data-value="cont"> contactarme</a>
             para trabajar juntos.
           </p>
         </div>

@@ -1,0 +1,14 @@
+{
+  "header": {
+    "inicio": "Home",
+    "formacion": "Education",
+    "proyectos": "Projects",
+    "contacto": "Contact",
+    "idioma": "Languaje"
+  },
+
+  "portada": {
+    "hero": "Hi there, I'm Sergio !!!",
+    "descripcion": "Graduated in Computer Systems Analyst and Frontend Developer, I design efficient applications and web pages, with a focus on innovation and adaptability to your requirements to captivate and improve the user experience. I invite you to see some of my <a href='#proyectos'>projects</a>  and to <a href='#contacto'>contact me</a> to work together."
+  }
+}

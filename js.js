@@ -1,4 +1,3 @@
-console.log("hola");
 document.querySelector(".flip-card").addEventListener("click", function () {
   this.classList.toggle("flipped");
 });
@@ -8,6 +7,22 @@ document.querySelector(".flip-card").addEventListener("keydown", function (e) {
   }
 });
 
+const langbuttons = document.querySelectorAll("[data-languaje]");
+const textToChange = document.querySelectorAll("[data-seccion]");
+langbuttons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    fetch(`./laguaje/${btn.dataset.languaje}.json`)
+      .then((res) => res.json())
+      .then((data) => {
+        textToChange.forEach((el) => {
+          const section = el.dataset.seccion;
+          const value = el.dataset.value;
+          el.innerHTML = data[section][value];
+        });
+      });
+  });
+});
+/* 
 function agregarBr() {
   const principal = document.getElementById("principal");
   if (window.innerWidth < 500) {
@@ -20,4 +35,4 @@ function agregarBr() {
   }
 }
 agregarBr();
-window.addEventListener("resize", agregarBr);
+window.addEventListener("resize", agregarBr); */
