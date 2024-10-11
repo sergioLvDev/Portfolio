@@ -209,6 +209,8 @@ p {
 
 /* FORMACION */
 .formacion {
+  display: grid;
+  grid-template-rows: auto 1fr;
   min-height: 100dvh;
 }
 
@@ -242,7 +244,9 @@ h3 {
 /* PROYECTOS */
 
 .proyectos {
-  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
 }
 
 .proyectosCard {
@@ -287,6 +291,8 @@ h3 {
 
 
 .contacto {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   min-height: 100dvh;
   margin-bottom: none;
 }
