@@ -393,8 +393,8 @@ h3 {
   header {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     position: relative;
     justify-content: space-between;
     margin: 20px;
@@ -452,6 +452,14 @@ h3 {
     align-items: stretch;
     width: auto;
     height: auto;
+  }
+
+  .slide {
+    width: auto;
+  }
+
+  .slide img {
+    height: 250px;
   }
 
   .menu {
