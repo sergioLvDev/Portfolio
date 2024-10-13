@@ -38,6 +38,7 @@
     "email": "E-mail",
     "asunto": "Subject",
     "comentario": "Comment",
-    "env": "Send"
+    "env": "Send",
+    "res": "Reset"
   }
 }

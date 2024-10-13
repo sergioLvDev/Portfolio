@@ -35,9 +35,10 @@
   },
   "contacto": {
     "nombre": "Nombre",
-    "email": "Correo Electrônico",
+    "email": "Correo Electrónico",
     "asunto": "Asunto",
     "comentario": "Comentario",
-    "env": "Enviar"
+    "env": "Enviar",
+    "res": "Vaciar"
   }
 }
