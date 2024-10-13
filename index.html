@@ -81,7 +81,7 @@
       </div>
     </div>
     <div class="formacion" id="formacion">
-      <h2 class="titulos">Formación</h2>
+      <h2 class="titulos" data-seccion="titu" data-value="formacion">Formación</h2>
       <div class="slider">
         <div class="slide-track">
           <div class="slide">
@@ -130,31 +130,34 @@
       </div>
       <div class="habilidades">
         <div class="skills">
-          <h3 class="text-center text-decoration-underline py-2">Educación</h3>
+          <h3 class="text-center text-decoration-underline py-2" data-seccion="formacion" data-value="educacion">
+            Educación</h3>
           <ul class="listEdu">
-            <li>Desarrollador Frontend - 2024</li>
-            <li>ReactJs - 2024</li>
-            <li>Javascript - 2024</li>
-            <li>Desarrollo Web - 2024</li>
-            <li>Programa 5S - Calidad Total en el Trabajo - 2009</li>
-            <li>Analista de Sistemas de Computación - 2006</li>
-            <li>Reparador de PC - 2005</li>
+            <li data-seccion="formacion" data-value="lista">Desarrollador Frontend - 2024</li>
+            <li data-seccion="formacion" data-value="listarjs">ReactJs - 2024</li>
+            <li data-seccion="formacion" data-value="listajs">Javascript - 2024</li>
+            <li data-seccion="formacion" data-value="listaweb">Desarrollo Web - 2024</li>
+            <li data-seccion="formacion" data-value="lista5s">Programa 5S - Calidad Total en el Trabajo - 2009</li>
+            <li data-seccion="formacion" data-value="listacomp">Analista de Sistemas de Computación - 2006</li>
+            <li data-seccion="formacion" data-value="listapc">Reparador de PC - 2005</li>
           </ul>
         </div>
         <div class="skills">
-          <h3 class="text-center text-decoration-underline py-2">Tecnologías</h3>
+          <h3 class="text-center text-decoration-underline py-2">Habilidades</h3>
         </div>
       </div>
     </div>
     <div class="proyectos" id="proyectos">
-      <h2 class="titulos">Proyectos</h2>
+      <h2 class="titulos" data-seccion="titu" data-value="proyectos">Proyectos</h2>
       <div class="proyectosCard">
         <div class="card" style="max-width:500px">
           <img src="./img/ser-natural.png" class="card-img-top" alt="imagen de portada ser natural">
           <div class="card-body">
-            <h5 class="card-title">SER NATURAL - Productos Nutricionales</h5>
+            <h5 class="card-title" data-seccion="proyectos" data-value="proyectosn">SER NATURAL - Productos
+              Nutricionales</h5>
             <hr>
-            <p class="card-text">Sitio Web realizado a pedido del cliente para la venta de productos nutricionales.
+            <p class="card-text" data-seccion="proyectos" data-value="descrisn">Sitio Web realizado a pedido del cliente
+              para la venta de productos nutricionales.
             </p>
             <p class="card-text">
               <img src="./img/i-html.png" alt="icono de html"> <img src="./img/i-css.png" alt="icono de css"> <img
@@ -167,9 +170,11 @@
         <div class="card" style="max-width:500px">
           <img src="./img/e-commerce.png" class="card-img-top" alt="imagen de portada e-commerce">
           <div class="card-body">
-            <h5 class="card-title">E-COMMERCE - Tienda de Ropa Online</h5>
+            <h5 class="card-title" data-seccion="proyectos" data-value="proyectosec">E-COMMERCE - Tienda de Ropa Online
+            </h5>
             <hr>
-            <p class="card-text">E-commerce realizado como proyecto final de curso para la venta de ropa y zapatillas.
+            <p class="card-text" data-seccion="proyectos" data-value="descriec">E-commerce realizado como proyecto final
+              de curso para la venta de ropa y zapatillas.
             </p>
             <p class="card-text">
               <img src="./img/i-html.png" alt="icono de html"> <img src="./img/i-js.png" alt="icono de js"> <img
@@ -182,7 +187,7 @@
       </div>
     </div>
     <div class="contacto" id="contacto">
-      <h2 class="titulos">Contacto</h2>
+      <h2 class="titulos" data-seccion="titu" data-value="contacto">Contacto</h2>
       <form netlify class="form  p-3 rounded mb-3" autocomplete="off">
         <label for="nombre" class="form-label">Nombre</label>
         <input type="text" class="form-control mb-3" name="name" id="nombre" required>

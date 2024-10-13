@@ -462,6 +462,11 @@ h3 {
     margin: 5px;
   }
 
+  .idioma2 {
+    margin-right: 5px;
+    flex-grow: 0;
+  }
+
   main {
     margin-left: 0;
     padding: 20px;
@@ -520,6 +525,12 @@ h3 {
 
   #es {
     order: -1;
+  }
+
+
+
+  .idioma {
+    justify-content: center;
   }
 
   nav li,

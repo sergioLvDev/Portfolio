@@ -10,5 +10,26 @@
   "portada": {
     "hero": "Hi there, I'm Sergio !!!",
     "descripcion": "Graduated in Computer Systems Analyst and Frontend Developer, I design efficient applications and web pages, with a focus on innovation and adaptability to your requirements to captivate and improve the user experience. I invite you to see some of my <a href='#proyectos'>projects</a>  and to <a href='#contacto'>contact me</a> to work together."
+  },
+  "titu": {
+    "formacion": "Education",
+    "proyectos": "Projects",
+    "contacto": "Contact"
+  },
+  "formacion": {
+    "educacion": "Education",
+    "lista": "<li>Frontend Developer - 2024</li>",
+    "listarjs": "<li>ReactJs - 2024</li>",
+    "listajs": "<li>Javascript - 2024</li>",
+    "listaweb": "<li>Web Design - 2024</li>",
+    "lista5s": "<li>5S Program - Total Quality at Work - 2009</li>",
+    "listacomp": "<li>Computer Systems Analyst - 2006</li>",
+    "listapc": "<li>PC Repairman - 2005</li>"
+  },
+  "proyectos": {
+    "proyectosn": "SER NATURAL - Nutritional Products",
+    "descrisn": "Website created at the client's request for the sale of nutritional products.",
+    "proyectosec": "E-COMMERCE - Online Clothing Store",
+    "descriec": "E-commerce carried out as a final course project for the sale of clothing and shoes."
   }
 }
