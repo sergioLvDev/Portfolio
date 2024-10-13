@@ -86,15 +86,17 @@ nav li,
 nav a {
   text-decoration: none;
   color: black;
-  margin-left: 5px;
+  display: block;
+  width: auto;
+  padding: 2px 5px;
 }
 
 
-nav li:hover,
-.idioma:hover {
+nav a:hover {
   background: #198754;
   border-radius: 5px;
   color: white;
+
 }
 
 .bande {
@@ -510,6 +512,10 @@ h3 {
     border-left: none;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+  }
+
+  .idioma2 {
+    text-align: end;
   }
 
   .flip-card {

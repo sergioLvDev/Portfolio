@@ -1,10 +1,10 @@
 {
   "header": {
-    "inicio": "Inicio",
-    "formacion": "Formación",
-    "proyectos": "Proyectos",
-    "contacto": "Contacto",
-    "idioma": "Idioma"
+    "inicio": " Inicio",
+    "formacion": " Formación",
+    "proyectos": " Proyectos",
+    "contacto": " Contacto",
+    "idioma": " Idioma"
   },
 
   "portada": {
