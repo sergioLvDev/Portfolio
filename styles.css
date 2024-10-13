@@ -102,8 +102,12 @@ nav a:hover {
 .bande {
   border: none;
   background-color: rgb(0, 0, 0, 00.1);
-  padding: 2px 5px;
-  margin: 1px;
+  padding: 0 5px;
+}
+
+.bande:hover {
+  background: #198754;
+  color: white;
 }
 
 .imgBande {
@@ -514,8 +518,13 @@ h3 {
     border-bottom: 1px solid black;
   }
 
-  .idioma2 {
-    text-align: end;
+  #es {
+    order: -1;
+  }
+
+  nav li,
+  .idioma {
+    padding: 5px;
   }
 
   .flip-card {
