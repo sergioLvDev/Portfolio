@@ -24,12 +24,20 @@
     "listaweb": "<li>Desarrollo Web - 2024</li>",
     "lista5s": "<li>Programa 5S - Calidad Total en el Trabajo - 2009</li>",
     "listacomp": "<li>Analista de Sistemas de Computación - 2006</li>",
-    "listapc": "<li>Reparador de PC - 2005</li>"
+    "listapc": "<li>Reparador de PC - 2005</li>",
+    "habi": "Habilidades"
   },
   "proyectos": {
     "proyectosn": "SER NATURAL - Productos Nutricionales",
     "descrisn": "Sitio Web realizado a pedido del cliente para la venta de productos nutricionales.",
     "proyectosec": "E-COMMERCE - Tienda de Ropa Online",
     "descriec": "E-commerce realizado como proyecto final de curso para la venta de ropa y zapatillas."
+  },
+  "contacto": {
+    "nombre": "Nombre",
+    "email": "Correo Electrônico",
+    "asunto": "Asunto",
+    "comentario": "Comentario",
+    "env": "Enviar"
   }
 }

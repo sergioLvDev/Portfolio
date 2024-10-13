@@ -24,12 +24,20 @@
     "listaweb": "<li>Web Design - 2024</li>",
     "lista5s": "<li>5S Program - Total Quality at Work - 2009</li>",
     "listacomp": "<li>Computer Systems Analyst - 2006</li>",
-    "listapc": "<li>PC Repairman - 2005</li>"
+    "listapc": "<li>PC Repairman - 2005</li>",
+    "habi": "Skills"
   },
   "proyectos": {
     "proyectosn": "SER NATURAL - Nutritional Products",
     "descrisn": "Website created at the client's request for the sale of nutritional products.",
     "proyectosec": "E-COMMERCE - Online Clothing Store",
     "descriec": "E-commerce carried out as a final course project for the sale of clothing and shoes."
+  },
+  "contacto": {
+    "nombre": "Name",
+    "email": "E-mail",
+    "asunto": "Subject",
+    "comentario": "Comment",
+    "env": "Send"
   }
 }
