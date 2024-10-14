@@ -256,7 +256,6 @@ p {
 .formacion {
   display: grid;
   grid-template-rows: auto 1fr;
-  min-height: 90dvh;
   margin-top: 10px;
 }
 
@@ -292,7 +291,6 @@ h3 {
 .proyectos {
   display: grid;
   grid-template-rows: auto 1fr;
-  min-height: 90dvh;
   margin-top: 10px;
 }
 
@@ -340,7 +338,6 @@ h3 {
 .contacto {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 90dvh;
 }
 
 .form {
@@ -504,11 +501,7 @@ h3 {
 }
 
 
-@media screen and (max-width: 560px) {
-  main {
-    padding-bottom: 10px;
-  }
-}
+
 
 
 
@@ -549,6 +542,13 @@ h3 {
 
   .idioma {
     justify-content: center;
+    align-items: stretch;
+  }
+
+  .idioma2 {
+    background-color: rgb(0, 0, 0, 00.1);
+    margin: 0px;
+    padding: 1px;
   }
 
   nav li,

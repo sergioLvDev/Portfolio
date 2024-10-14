@@ -9,7 +9,8 @@
 
   "portada": {
     "hero": "Hola, soy Sergio !!!",
-    "descripcion": "Graduado en Analista de Sistemas de Computación y Desarrollador Frontend, diseño aplicaciones y paginas web eficientes, con enfoque en la innovación y adaptabilidad a tus requerimientos para que cautive y mejore la experiencia de usuario. Te invito a ver algunos de mis <a href='#proyectos'><strong>proyectos</strong></a> y a <a href='#contacto'><strong>contactarme</strong></a> para trabajar juntos."
+    "descripcion": "Graduado en Analista de Sistemas de Computación y Desarrollador Frontend, diseño aplicaciones y paginas web eficientes, con enfoque en la innovación y adaptabilidad a tus requerimientos para que cautive y mejore la experiencia de usuario. Te invito a ver algunos de mis <a href='#proyectos'><strong>proyectos</strong></a> y a <a href='#contacto'><strong>contactarme</strong></a> para trabajar juntos.",
+    "boton": "Contactame"
   },
   "titu": {
     "formacion": "Formación",
