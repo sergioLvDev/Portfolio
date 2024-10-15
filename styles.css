@@ -193,9 +193,6 @@ nav {
   font-size: 80px;
 }
 
-p {
-  font-size: 30px;
-}
 
 .social {
   width: 40px;
@@ -276,11 +273,40 @@ p {
   list-style-type: circle;
   margin: 10px 30px 30px 15px;
   text-align: left;
-  font-size: large;
+  font-size: 20px;
 }
 
 h3 {
   font-size: 1.5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px 5px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.cajas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.cajas img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.cajas p {
+  margin-bottom: 0;
+  font-size: 15px;
+  height: auto;
 }
 
 /* PROYECTOS */
