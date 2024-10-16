@@ -10,6 +10,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 body {
   font-family: 'Exo 2', sans-serif;
   font-weight: 500;
@@ -255,7 +257,7 @@ nav {
 .formacion {
   display: grid;
   grid-template-rows: auto 1fr;
-  margin-top: 10px;
+
 }
 
 .habilidades {
@@ -319,7 +321,6 @@ h3 {
 .proyectos {
   display: grid;
   grid-template-rows: auto 1fr;
-  margin-top: 10px;
 }
 
 .proyectosCard {
@@ -442,6 +443,17 @@ h3 {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  animation: vuelta 1.5s linear;
+}
+
+@keyframes vuelta {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 
 .flip-card.flipped .flip-card-inner {
