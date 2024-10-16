@@ -40,6 +40,7 @@ body {
 
 
 
+
 header {
   display: flex;
   flex-direction: column;
@@ -150,7 +151,6 @@ nav {
 
 
 /* INICIO */
-
 .hero {
   display: grid;
   place-content: center;
@@ -171,6 +171,11 @@ nav {
 
 .imgCompu {
   width: 620px;
+}
+
+.lead {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 @media (max-width: 993px) {
@@ -397,8 +402,7 @@ h3 {
 }
 
 .btnSubmit:hover {
-  background-color: #1bcf36;
-  color: black;
+  background-color: #115736;
 }
 
 /* FOOTER */
