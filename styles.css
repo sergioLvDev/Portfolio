@@ -103,9 +103,13 @@ nav a:hover {
 }
 
 .bande {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   border: none;
   background-color: rgb(0, 0, 0, 00.1);
-  padding: 0 5px;
+  padding: 3px 5px;
 }
 
 
@@ -122,6 +126,8 @@ nav a:hover {
 }
 
 .idioma2 {
+  display: flex;
+  align-items: center;
   flex-grow: 5;
   margin-left: 5px;
 }
@@ -257,6 +263,7 @@ nav {
 .formacion {
   display: grid;
   grid-template-rows: auto 1fr;
+  min-height: 100vh;
 
 }
 
@@ -265,7 +272,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   gap: 10px;
-  margin: auto;
+  margin: 10px 0;
 }
 
 
@@ -321,6 +328,7 @@ h3 {
 .proyectos {
   display: grid;
   grid-template-rows: auto 1fr;
+  min-height: 100vh;
 }
 
 .proyectosCard {
@@ -443,7 +451,7 @@ h3 {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  animation: vuelta 1.5s linear;
+  animation: vuelta 2s ease-in-out;
 }
 
 @keyframes vuelta {
