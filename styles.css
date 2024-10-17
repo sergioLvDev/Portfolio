@@ -342,6 +342,13 @@ h3 {
 .card {
   width: 100%;
   max-width: 500px;
+  background-color: rgb(0, 0, 0, 00.1);
+
+}
+
+video {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 @media (max-width: 800px) {
@@ -353,9 +360,6 @@ h3 {
   }
 }
 
-.card {
-  background-color: rgb(0, 0, 0, 00.1)
-}
 
 .card-title {
   text-align: left;
