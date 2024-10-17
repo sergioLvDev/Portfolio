@@ -22,3 +22,16 @@ langbuttons.forEach((btn) => {
       });
   });
 });
+
+const videoEcommerce = document.querySelector("#videoEcommerce");
+const demoBtn = document.querySelector("#demoBtn");
+
+demoBtn.addEventListener("click", () => {
+  if (videoEcommerce.paused) {
+    videoEcommerce.play();
+    videoEcommerce.controls = true;
+  } else {
+    videoEcommerce.load();
+    videoEcommerce.controls = false;
+  }
+});
