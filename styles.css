@@ -248,14 +248,16 @@ nav {
 
 @keyframes scroll {
   0% {
+    -webkit-animation: translateX(calc(-500px * 7));
+    transform: translateX(calc(-500px * 7));
+  }
+
+  100% {
     -webkit-animation: translateX(0);
     transform: translateX(0);
   }
 
-  100% {
-    -webkit-animation: translateX(calc(-500px * 7));
-    transform: translateX(calc(-500px * 7));
-  }
+
 }
 
 
@@ -460,11 +462,15 @@ video {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  animation: vuelta 2.5s linear;
+  animation: vuelta 2s linear;
 }
 
 @keyframes vuelta {
   0% {
+    transform: rotateY(180deg);
+  }
+
+  50% {
     transform: rotateY(180deg);
   }
 
