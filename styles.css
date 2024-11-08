@@ -353,6 +353,28 @@ video {
   border-top-right-radius: 3px;
 }
 
+.btn1 {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+
+.btn2 {
+  border-radius: 0;
+  border-inline: 3px solid rgba(5, 5, 5, 0.1);
+}
+
+.btn3 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+
+
 @media (max-width: 800px) {
 
   .proyectosCard,
