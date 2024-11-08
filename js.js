@@ -35,3 +35,16 @@ demoBtn.addEventListener("click", () => {
     videoEcommerce.controls = false;
   }
 });
+
+const videoSerNatural = document.querySelector("#videoSerNatural");
+const demoBtn1 = document.querySelector("#demoBtn1");
+
+demoBtn1.addEventListener("click", () => {
+  if (videoSerNatural.paused) {
+    videoSerNatural.play();
+    videoSerNatural.controls = true;
+  } else {
+    videoSerNatural.load();
+    videoSerNatural.controls = false;
+  }
+});
