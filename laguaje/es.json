@@ -30,9 +30,9 @@
   },
   "proyectos": {
     "proyectosn": "SER NATURAL - Productos Nutricionales",
-    "descrisn": "Sitio Web realizado a pedido del cliente para la venta de productos nutricionales.",
+    "descrisn": "Sitio Web de productos nutricionales realizado como proyecto final del curso de Javascript.",
     "proyectosec": "E-COMMERCE - Tienda de Ropa Online",
-    "descriec": "E-commerce realizado como proyecto final de curso para la venta de ropa y zapatillas."
+    "descriec": "E-commerce realizado como proyecto final de curso de ReactJs para la venta de ropa y zapatillas."
   },
   "contacto": {
     "nombre": "Nombre",
