@@ -264,9 +264,9 @@ nav {
 /* FORMACION */
 .formacion {
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto auto;
   min-height: 100vh;
-
+  align-content: center;
 }
 
 .habilidades {
